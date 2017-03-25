@@ -1,0 +1,99 @@
+﻿@model RS.MeusPedidos.Application.ViewModels.CandidatoViewModel
+
+@{
+    ViewBag.Title = "Histórico";
+}
+
+<h2>Histórico</h2>
+
+<div>
+    <h4>Candidato</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Perfil)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Perfil)
+        </dd>
+
+        @if (Model.RespostaSet != null)
+        {
+
+            <dt>
+                @Html.DisplayNameFor(model => model.RespostaSet)
+            </dt>
+
+            <dd>
+                <ul>
+                    @foreach (var x in Model.RespostaSet.Where(w => w.Pontos > 0))
+                {
+                        <li>@x.Conhecimento (@x.Pontos pontos)</li>
+                    }
+                </ul>
+            </dd>
+        }
+
+    </dl>
+</div>
+
+
+@{
+    var conhecimentos = Model.AvaliacaoSet.SelectMany(s => s.RespostaSet).Select(s => s.Conhecimento).Distinct().ToArray();
+
+    RS.MeusPedidos.Application.ViewModels.AvaliacaoViewModel anterior = null;
+
+}
+
+
+<h3>Histórico de avaliações</h3>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <td>Data e horário</td>
+            @for (int c = 0; c < conhecimentos.Count(); c++)
+            {
+
+                <td>@conhecimentos[c]</td>
+            }
+        </tr>
+    </thead>
+    <tbody>
+
+
+        @foreach (var x in Model.AvaliacaoSet.OrderBy(d => d.CreatedOn))
+        {
+            <tr>
+                <td>@x.CreatedOn</td>
+                @for (int c = 0; c < conhecimentos.Count(); c++)
+                {
+                    <td>@x.RespostaSet.Where(w => w.Conhecimento == conhecimentos[c]).Select(s => s.Pontos).FirstOrDefault() <i class="fa @(anterior != null ? (anterior.RespostaSet.Where(w => w.Conhecimento == conhecimentos[c]).Select(s => s.Pontos).FirstOrDefault() == x.RespostaSet.Where(w => w.Conhecimento == conhecimentos[c]).Select(s => s.Pontos).FirstOrDefault() ? "fa-stop" : anterior.RespostaSet.Where(w => w.Conhecimento == conhecimentos[c]).Select(s => s.Pontos).FirstOrDefault() > x.RespostaSet.Where(w => w.Conhecimento == conhecimentos[c]).Select(s => s.Pontos).FirstOrDefault() ? "fa-arrow-down" : "fa-arrow-up") : "") "></i> </td>
+                }
+            </tr>
+            anterior = x;
+        }
+    </tbody>
+</table>
+
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Voltar", "Index")
+</p>

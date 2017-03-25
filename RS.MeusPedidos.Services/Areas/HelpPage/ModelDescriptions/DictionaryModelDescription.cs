@@ -1,0 +1,6 @@
+namespace RS.MeusPedidos.Services.Areas.HelpPage.ModelDescriptions
+{
+    public class DictionaryModelDescription : KeyValuePairModelDescription
+    {
+    }
+}

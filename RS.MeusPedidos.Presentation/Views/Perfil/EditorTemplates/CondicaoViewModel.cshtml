@@ -1,0 +1,10 @@
+﻿@model RS.MeusPedidos.Application.ViewModels.CondicaoViewModel
+
+<div class="form-group">
+    <label class="control-label col-md-2">@Model.Conhecimento</label>
+    <div class="col-md-10">
+        <input name="@Html.NameFor(model => model.ConhecimentoId)" type="hidden" value="@Model.ConhecimentoId" />
+        <input name="@Html.NameFor(model => model.Conhecimento)" type="hidden" value="@Model.Conhecimento" />
+        <input name="@Html.NameFor(model => model.Pontos)" type="range" min="0" max="10" value="@Model.Pontos" />
+    </div>
+</div>

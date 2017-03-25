@@ -1,0 +1,15 @@
+﻿@model IEnumerable<string>
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<h1>Administração</h1>
+
+<h3>Perfis de candidatos</h3>
+<ul>
+    @foreach (var x in Model)
+    {
+        <li><a href="@Url.Action("Index","Candidato",new { id = x })">@x</a></li>
+    }
+    <li><a href="@Url.Action("Index","Candidato",new { id = "Genérico" })">Genérico</a></li>
+</ul>

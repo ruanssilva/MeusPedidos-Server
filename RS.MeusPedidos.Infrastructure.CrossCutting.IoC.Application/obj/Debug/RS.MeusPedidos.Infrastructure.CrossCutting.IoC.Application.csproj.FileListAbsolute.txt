@@ -1,0 +1,15 @@
+C:\Users\Ruan\documents\visual studio 2017\Projects\RS.MeusPedidos\RS.MeusPedidos.Infrastructure.CrossCutting.IoC.Application\bin\Debug\RS.MeusPedidos.Infrastructure.CrossCutting.IoC.Application.dll
+C:\Users\Ruan\documents\visual studio 2017\Projects\RS.MeusPedidos\RS.MeusPedidos.Infrastructure.CrossCutting.IoC.Application\bin\Debug\RS.MeusPedidos.Infrastructure.CrossCutting.IoC.Application.pdb
+C:\Users\Ruan\documents\visual studio 2017\Projects\RS.MeusPedidos\RS.MeusPedidos.Infrastructure.CrossCutting.IoC.Application\bin\Debug\Ninject.dll
+C:\Users\Ruan\documents\visual studio 2017\Projects\RS.MeusPedidos\RS.MeusPedidos.Infrastructure.CrossCutting.IoC.Application\bin\Debug\RS.MeusPedidos.Application.dll
+C:\Users\Ruan\documents\visual studio 2017\Projects\RS.MeusPedidos\RS.MeusPedidos.Infrastructure.CrossCutting.IoC.Application\bin\Debug\RS.MeusPedidos.Domain.dll
+C:\Users\Ruan\documents\visual studio 2017\Projects\RS.MeusPedidos\RS.MeusPedidos.Infrastructure.CrossCutting.IoC.Application\bin\Debug\AutoMapper.dll
+C:\Users\Ruan\documents\visual studio 2017\Projects\RS.MeusPedidos\RS.MeusPedidos.Infrastructure.CrossCutting.IoC.Application\bin\Debug\RS.MeusPedidos.Infrastructure.CrossCutting.Utility.dll
+C:\Users\Ruan\documents\visual studio 2017\Projects\RS.MeusPedidos\RS.MeusPedidos.Infrastructure.CrossCutting.IoC.Application\bin\Debug\RS.MeusPedidos.Application.pdb
+C:\Users\Ruan\documents\visual studio 2017\Projects\RS.MeusPedidos\RS.MeusPedidos.Infrastructure.CrossCutting.IoC.Application\bin\Debug\RS.MeusPedidos.Domain.pdb
+C:\Users\Ruan\documents\visual studio 2017\Projects\RS.MeusPedidos\RS.MeusPedidos.Infrastructure.CrossCutting.IoC.Application\bin\Debug\Ninject.xml
+C:\Users\Ruan\documents\visual studio 2017\Projects\RS.MeusPedidos\RS.MeusPedidos.Infrastructure.CrossCutting.IoC.Application\bin\Debug\AutoMapper.xml
+C:\Users\Ruan\documents\visual studio 2017\Projects\RS.MeusPedidos\RS.MeusPedidos.Infrastructure.CrossCutting.IoC.Application\bin\Debug\RS.MeusPedidos.Infrastructure.CrossCutting.Utility.pdb
+C:\Users\Ruan\documents\visual studio 2017\Projects\RS.MeusPedidos\RS.MeusPedidos.Infrastructure.CrossCutting.IoC.Application\obj\Debug\RS.MeusPedidos.Infrastructure.CrossCutting.IoC.Application.csprojResolveAssemblyReference.cache
+C:\Users\Ruan\documents\visual studio 2017\Projects\RS.MeusPedidos\RS.MeusPedidos.Infrastructure.CrossCutting.IoC.Application\obj\Debug\RS.MeusPedidos.Infrastructure.CrossCutting.IoC.Application.dll
+C:\Users\Ruan\documents\visual studio 2017\Projects\RS.MeusPedidos\RS.MeusPedidos.Infrastructure.CrossCutting.IoC.Application\obj\Debug\RS.MeusPedidos.Infrastructure.CrossCutting.IoC.Application.pdb

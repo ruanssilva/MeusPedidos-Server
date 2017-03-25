@@ -1,0 +1,4 @@
+C:\Users\Ruan\documents\visual studio 2017\Projects\RS.MeusPedidos\RS.MeusPedidos.Domain\bin\Debug\RS.MeusPedidos.Domain.dll
+C:\Users\Ruan\documents\visual studio 2017\Projects\RS.MeusPedidos\RS.MeusPedidos.Domain\bin\Debug\RS.MeusPedidos.Domain.pdb
+C:\Users\Ruan\documents\visual studio 2017\Projects\RS.MeusPedidos\RS.MeusPedidos.Domain\obj\Debug\RS.MeusPedidos.Domain.dll
+C:\Users\Ruan\documents\visual studio 2017\Projects\RS.MeusPedidos\RS.MeusPedidos.Domain\obj\Debug\RS.MeusPedidos.Domain.pdb

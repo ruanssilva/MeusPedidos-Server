@@ -1,0 +1,14 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace RS.MeusPedidos.Domain
+{
+    public class Conhecimento : Auditoria
+    {
+        public Guid Id { get; set; }
+        public string Nome { get; set; }
+
+        public virtual ICollection<Condicao> CondicaoSet { get; set; }
+        public virtual ICollection<Resposta> RespostaSet { get; set; }
+    }
+}

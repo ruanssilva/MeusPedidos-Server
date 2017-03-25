@@ -1,0 +1,42 @@
+﻿@model RS.MeusPedidos.Application.ViewModels.PerfilViewModel
+
+@{
+    ViewBag.Title = "Ver";
+}
+
+<h2>Ver</h2>
+
+<div>
+    <h4>Prefil</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+
+        @if (Model.CondicaoSet != null)
+        {
+            <dt>
+                @Html.DisplayNameFor(model => model.CondicaoSet)
+            </dt>
+
+            <dd>
+                <ul>
+                    @foreach (var x in Model.CondicaoSet.Where(w => w.Pontos > 0))
+                {
+                        <li>@x.Conhecimento (@x.Pontos)</li>
+                    }
+                </ul>
+            </dd>
+        }
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Voltar", "Index")
+</p>

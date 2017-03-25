@@ -1,0 +1,5 @@
+C:\Users\Ruan\documents\visual studio 2017\Projects\RS.MeusPedidos\RS.MeusPedidos.Domain\bin\Release\RS.MeusPedidos.Domain.dll
+C:\Users\Ruan\documents\visual studio 2017\Projects\RS.MeusPedidos\RS.MeusPedidos.Domain\bin\Release\RS.MeusPedidos.Domain.pdb
+C:\Users\Ruan\documents\visual studio 2017\Projects\RS.MeusPedidos\RS.MeusPedidos.Domain\obj\Release\RS.MeusPedidos.Domain.dll
+C:\Users\Ruan\documents\visual studio 2017\Projects\RS.MeusPedidos\RS.MeusPedidos.Domain\obj\Release\RS.MeusPedidos.Domain.pdb
+C:\Users\Ruan\documents\visual studio 2017\Projects\RS.MeusPedidos\RS.MeusPedidos.Domain\obj\Release\RS.MeusPedidos.Domain.csprojResolveAssemblyReference.cache

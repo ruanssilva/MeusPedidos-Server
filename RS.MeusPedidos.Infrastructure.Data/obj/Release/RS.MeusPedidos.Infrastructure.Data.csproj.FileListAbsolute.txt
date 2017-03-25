@@ -1,0 +1,12 @@
+C:\Users\Ruan\documents\visual studio 2017\Projects\RS.MeusPedidos\RS.MeusPedidos.Infrastructure.Data\bin\Release\RS.MeusPedidos.Infrastructure.Data.dll.config
+C:\Users\Ruan\documents\visual studio 2017\Projects\RS.MeusPedidos\RS.MeusPedidos.Infrastructure.Data\bin\Release\RS.MeusPedidos.Infrastructure.Data.dll
+C:\Users\Ruan\documents\visual studio 2017\Projects\RS.MeusPedidos\RS.MeusPedidos.Infrastructure.Data\bin\Release\RS.MeusPedidos.Infrastructure.Data.pdb
+C:\Users\Ruan\documents\visual studio 2017\Projects\RS.MeusPedidos\RS.MeusPedidos.Infrastructure.Data\bin\Release\EntityFramework.dll
+C:\Users\Ruan\documents\visual studio 2017\Projects\RS.MeusPedidos\RS.MeusPedidos.Infrastructure.Data\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Ruan\documents\visual studio 2017\Projects\RS.MeusPedidos\RS.MeusPedidos.Infrastructure.Data\bin\Release\RS.MeusPedidos.Domain.dll
+C:\Users\Ruan\documents\visual studio 2017\Projects\RS.MeusPedidos\RS.MeusPedidos.Infrastructure.Data\bin\Release\RS.MeusPedidos.Domain.pdb
+C:\Users\Ruan\documents\visual studio 2017\Projects\RS.MeusPedidos\RS.MeusPedidos.Infrastructure.Data\bin\Release\EntityFramework.xml
+C:\Users\Ruan\documents\visual studio 2017\Projects\RS.MeusPedidos\RS.MeusPedidos.Infrastructure.Data\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Ruan\documents\visual studio 2017\Projects\RS.MeusPedidos\RS.MeusPedidos.Infrastructure.Data\obj\Release\RS.MeusPedidos.Infrastructure.Data.csprojResolveAssemblyReference.cache
+C:\Users\Ruan\documents\visual studio 2017\Projects\RS.MeusPedidos\RS.MeusPedidos.Infrastructure.Data\obj\Release\RS.MeusPedidos.Infrastructure.Data.dll
+C:\Users\Ruan\documents\visual studio 2017\Projects\RS.MeusPedidos\RS.MeusPedidos.Infrastructure.Data\obj\Release\RS.MeusPedidos.Infrastructure.Data.pdb

@@ -1,0 +1,5 @@
+C:\Users\Ruan\documents\visual studio 2017\Projects\RS.MeusPedidos\RS.MeusPedidos.Infrastructure.CrossCutting.Utility\bin\Release\RS.MeusPedidos.Infrastructure.CrossCutting.Utility.dll
+C:\Users\Ruan\documents\visual studio 2017\Projects\RS.MeusPedidos\RS.MeusPedidos.Infrastructure.CrossCutting.Utility\bin\Release\RS.MeusPedidos.Infrastructure.CrossCutting.Utility.pdb
+C:\Users\Ruan\documents\visual studio 2017\Projects\RS.MeusPedidos\RS.MeusPedidos.Infrastructure.CrossCutting.Utility\obj\Release\RS.MeusPedidos.Infrastructure.CrossCutting.Utility.csprojResolveAssemblyReference.cache
+C:\Users\Ruan\documents\visual studio 2017\Projects\RS.MeusPedidos\RS.MeusPedidos.Infrastructure.CrossCutting.Utility\obj\Release\RS.MeusPedidos.Infrastructure.CrossCutting.Utility.dll
+C:\Users\Ruan\documents\visual studio 2017\Projects\RS.MeusPedidos\RS.MeusPedidos.Infrastructure.CrossCutting.Utility\obj\Release\RS.MeusPedidos.Infrastructure.CrossCutting.Utility.pdb

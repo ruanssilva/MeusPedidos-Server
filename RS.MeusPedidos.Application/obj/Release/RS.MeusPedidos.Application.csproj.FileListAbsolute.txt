@@ -1,0 +1,11 @@
+C:\Users\Ruan\documents\visual studio 2017\Projects\RS.MeusPedidos\RS.MeusPedidos.Application\bin\Release\RS.MeusPedidos.Application.dll
+C:\Users\Ruan\documents\visual studio 2017\Projects\RS.MeusPedidos\RS.MeusPedidos.Application\bin\Release\RS.MeusPedidos.Application.pdb
+C:\Users\Ruan\documents\visual studio 2017\Projects\RS.MeusPedidos\RS.MeusPedidos.Application\bin\Release\AutoMapper.dll
+C:\Users\Ruan\documents\visual studio 2017\Projects\RS.MeusPedidos\RS.MeusPedidos.Application\bin\Release\RS.MeusPedidos.Domain.dll
+C:\Users\Ruan\documents\visual studio 2017\Projects\RS.MeusPedidos\RS.MeusPedidos.Application\bin\Release\RS.MeusPedidos.Infrastructure.CrossCutting.Utility.dll
+C:\Users\Ruan\documents\visual studio 2017\Projects\RS.MeusPedidos\RS.MeusPedidos.Application\bin\Release\RS.MeusPedidos.Domain.pdb
+C:\Users\Ruan\documents\visual studio 2017\Projects\RS.MeusPedidos\RS.MeusPedidos.Application\bin\Release\RS.MeusPedidos.Infrastructure.CrossCutting.Utility.pdb
+C:\Users\Ruan\documents\visual studio 2017\Projects\RS.MeusPedidos\RS.MeusPedidos.Application\bin\Release\AutoMapper.xml
+C:\Users\Ruan\documents\visual studio 2017\Projects\RS.MeusPedidos\RS.MeusPedidos.Application\obj\Release\RS.MeusPedidos.Application.csprojResolveAssemblyReference.cache
+C:\Users\Ruan\documents\visual studio 2017\Projects\RS.MeusPedidos\RS.MeusPedidos.Application\obj\Release\RS.MeusPedidos.Application.dll
+C:\Users\Ruan\documents\visual studio 2017\Projects\RS.MeusPedidos\RS.MeusPedidos.Application\obj\Release\RS.MeusPedidos.Application.pdb

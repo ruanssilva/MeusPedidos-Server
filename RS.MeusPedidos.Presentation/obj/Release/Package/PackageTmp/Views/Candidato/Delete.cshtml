@@ -1,0 +1,65 @@
+﻿@model RS.MeusPedidos.Application.ViewModels.CandidatoViewModel
+
+@{
+    ViewBag.Title = "Deletar";
+}
+
+<h2>Deletar</h2>
+
+<h3>Você tem certeza?</h3>
+<div>
+    <h4>Candidato</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Perfil)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Perfil)
+        </dd>
+
+        @if (Model.RespostaSet != null)
+        {
+
+            <dt>
+                @Html.DisplayNameFor(model => model.RespostaSet)
+            </dt>
+
+            <dd>
+                <ul>
+                    @foreach (var x in Model.RespostaSet.Where(w => w.Pontos > 0))
+                {
+                        <li>@x.Conhecimento (@x.Pontos pontos)</li>
+                    }
+                </ul>
+            </dd>
+        }
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Confirmar" class="btn btn-default" /> |
+            @Html.ActionLink("Voltar", "Index")
+        </div>
+    }
+</div>

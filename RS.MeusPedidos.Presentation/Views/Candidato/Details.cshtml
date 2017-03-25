@@ -1,0 +1,59 @@
+﻿@model RS.MeusPedidos.Application.ViewModels.CandidatoViewModel
+
+@{
+    ViewBag.Title = "Ver";
+}
+
+<h2>Ver</h2>
+
+<div>
+    <h4>Candidato</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Perfil)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Perfil)
+        </dd>
+
+        @if (Model.RespostaSet != null)
+        {
+
+            <dt>
+                @Html.DisplayNameFor(model => model.RespostaSet)
+            </dt>
+
+            <dd>
+                <ul>
+                    @foreach (var x in Model.RespostaSet.Where(w => w.Pontos > 0))
+                {
+                        <li>@x.Conhecimento (@x.Pontos pontos)</li>
+                    }
+                </ul>
+            </dd>
+        }
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Voltar", "Index")
+</p>

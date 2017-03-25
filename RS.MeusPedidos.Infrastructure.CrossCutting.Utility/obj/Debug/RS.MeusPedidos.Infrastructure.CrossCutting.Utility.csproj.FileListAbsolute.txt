@@ -1,0 +1,4 @@
+C:\Users\Ruan\documents\visual studio 2017\Projects\RS.MeusPedidos\RS.MeusPedidos.Infrastructure.CrossCutting.Utility\bin\Debug\RS.MeusPedidos.Infrastructure.CrossCutting.Utility.dll
+C:\Users\Ruan\documents\visual studio 2017\Projects\RS.MeusPedidos\RS.MeusPedidos.Infrastructure.CrossCutting.Utility\bin\Debug\RS.MeusPedidos.Infrastructure.CrossCutting.Utility.pdb
+C:\Users\Ruan\documents\visual studio 2017\Projects\RS.MeusPedidos\RS.MeusPedidos.Infrastructure.CrossCutting.Utility\obj\Debug\RS.MeusPedidos.Infrastructure.CrossCutting.Utility.dll
+C:\Users\Ruan\documents\visual studio 2017\Projects\RS.MeusPedidos\RS.MeusPedidos.Infrastructure.CrossCutting.Utility\obj\Debug\RS.MeusPedidos.Infrastructure.CrossCutting.Utility.pdb

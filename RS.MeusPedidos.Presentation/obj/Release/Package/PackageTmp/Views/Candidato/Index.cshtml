@@ -1,0 +1,56 @@
+﻿@model IEnumerable<RS.MeusPedidos.Application.ViewModels.CandidatoViewModel>
+
+@{
+    ViewBag.Title = "Candidatos";
+}
+<h3>Perfis disponíveis</h3>
+<ul>
+    @foreach (var x in ViewBag.Perfis)
+    {
+        <li><a href="@Url.Action("Index","Candidato",new { id = x })">@x</a></li>
+    }
+    <li><a href="@Url.Action("Index","Candidato",new { id = "Genérico" })">Genérico</a></li>
+
+</ul>
+
+<h2>Candidatos – @(ViewBag.Perfil ?? "Todos")</h2>
+
+<p>
+    @Html.ActionLink("Novo", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nome)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Perfil)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Perfil)
+            </td>
+            <td>
+                @Html.ActionLink("Editar", "Edit", new { id = item.Id }) |
+                @Html.ActionLink("Ver", "Details", new { id = item.Id }) |
+                @Html.ActionLink("Histórico", "Plus", new { id = item.Id }) |
+                @Html.ActionLink("Deletar", "Delete", new { id = item.Id })
+            </td>
+        </tr>
+    }
+
+</table>
