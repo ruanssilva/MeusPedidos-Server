@@ -85,7 +85,7 @@ namespace RS.MeusPedidos.Application
 
                 try
                 {
-                    SendMail(model);
+                    model.Perfil = SendMail(model);
                 }
                 finally
                 {

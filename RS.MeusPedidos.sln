@@ -43,6 +43,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RS.MeusPedidos.Services", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RS.MeusPedidos.Application.Tests", "RS.MeusPedidos.Application.Tests\RS.MeusPedidos.Application.Tests.csproj", "{B4200392-63C6-4D75-B40E-32E8EE8D02DF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EA3D0DC7-BF60-49EC-A0AC-1CAD64BE8E28}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
